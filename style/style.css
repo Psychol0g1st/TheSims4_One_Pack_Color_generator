@@ -1,0 +1,214 @@
+body{
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	font-family: 'Roboto';
+	background-color: #F0F0F0
+}
+
+li{
+	list-style: none;
+	display: inline;
+	
+}
+ul{
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.header{
+	text-align:center;
+}
+
+.title-image{
+	margin: 5% 0 5% 0;
+	width: 40%;
+}
+.header-text{
+	padding: 0 5%;
+	font-size: 2rem;
+	margin-bottom: 5%;
+	color: #707070;
+	font-weight: 700;
+}
+.hints{
+	margin: 0 0 5% 15%;
+}
+.part-header{
+	font-size: 1.5rem;
+	color: #707070;
+	font-weight: 500;
+	margin: 0 0 0% 15%;
+}
+.sims-icon{
+	width: 2rem;
+	float: left;
+	
+}
+.hints-text{
+	font-weight: 400;
+	color: #707070;
+	font-size: 1.5rem;
+}
+.pack-selection{
+	text-align: center;
+}
+.select-all-container{
+	position:relative;
+	height: 3rem;
+}
+.select-all{
+	position: absolute;
+	right: 25%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 5%;
+	
+}
+.select-all-text{
+	text-transform: uppercase;
+	color: #707070;
+	font-size: 1rem;
+	margin: 0 10px 0 0;
+}
+.select-all-btn{
+	background-color: #F0F0F0;
+	border: 2px solid #65AE4A;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	outline: none;
+}
+.pack-container{
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+}
+.pack-header{
+	color: #505050;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 0;
+	padding: 5% 0 5% 0;;
+}
+.pack-icons{
+	padding: 0 5%;
+	margin: 0 0 5% 0;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+}
+.extension-pack{
+	background-color: rgb(0,194,193, 0.15);
+	border-radius: 100px 100px 0 0;
+}
+.game-pack{
+	background-color: rgb(25,0,187, 0.4);
+}
+.stuff-pack{
+	background-color: rgb(0,239,0, 0.3);
+	border-radius: 0 0 100px 100px;
+}
+.pack-icon{
+	padding: 0 10px;
+	width: 8vh;
+}
+.generate-btn-container{
+	text-align: center;
+}
+.generate-btn{
+	margin: 5% 0 7% 0;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 2% 5%;
+	outline: none;
+	background-color: #49CB2D;
+	border-radius: 100px;
+	border: 1px solid
+	
+}
+.generate-btn:hover{
+	background-color: green;
+}
+.result{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 30%;
+	border-radius: 100px;
+	background-color: rgb(0,194,193, 0.15);
+	margin-bottom: 10%;
+}
+.result-element{
+	margin: 0;
+	display: inline-block;
+	padding: 10px;
+}
+.result-text{
+	color: #707070;
+	font-size: 1.5rem;
+}
+.result-pack-icon{
+	display: none;
+	width: 4rem;
+}
+.color-container{
+	position: relative;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15%;
+}
+.result-color{
+	position: absolute;
+	width: 20vh;
+	height: 20vh;
+	background: linear-gradient(rgb(255,0,0), rgb(225,255,0), rgb(0,255,0), rgb(0,255,255), rgb(0,0,255), rgb(255,0,255));
+	background-size: 1000% 1000%;
+	border-radius: 50%;
+	animation: animate 10s linear infinite;
+}
+.result-color:nth-child(1){
+	filter: blur(10px);
+}
+
+@keyframes animate{
+	 0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+.color-generator-btn{
+	position: absolute;
+	color: #707070;
+	background-color: F0F0F0;
+	font-size: 3vh;
+	outline: none;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	border: none
+	
+}
+.color-generator-btn:hover{
+	background-color: #fff;
+}
+.footer{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	background-color: #D0D0D0;
+}
+.footer-text{
+	padding-top: 5vh;
+	font-size: 1rem;
+}
+.creator{
+	font-size: 0.5rem;
+	margin: 0;
+	padding-bottom: 5vh;
+}
